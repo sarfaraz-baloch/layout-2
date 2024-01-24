@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body h1{
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main{
+    width: 70%;
+    height: 80%;
+    background-color: grey;
+    border: 5px solid crimson;
+    border-radius: 5px;
+}
+
+.main div{
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.frist{
+    flex: 1;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1; */
+}
+.frist div{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    background-color: green;
+    /* margin:0 10px; */
+}
+
+.frist .a{
+    flex: 1;
+}
+.frist .b{
+    flex: 5;
+}
+.frist .c {
+    flex: 1;
+}
+
+.second{
+    flex: 1;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second div{
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+    background-color: green;
+    /* margin: 0 10px; */
+}
+
+.second .d{
+flex: 5;
+}
+.second .e{
+flex: 1;
+}
+.second .f{
+flex: 2;
+}
+
+.third{
+    flex: 1;
+    height: 20%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third div{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    /* margin: 0 10px; */
+    border: 2px solid red;
+}
+
+ .third .g {
+    flex: 1;
+}
+
+ .third .h{
+    flex: 2;
+}
+
+ .third .i{
+    flex: 3;
+}
+.fourth{
+    flex: 1;
+    height: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth div{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: green;
+}
+
+.fourth .j{
+flex: 2;
+}
+.fourth .k{
+flex: 1;
+}
+.fourth .l{
+flex: 2;
+}
+.fourth .m{
+flex: 1;
+}
+.fourth .n{
+flex: 2;
+}
